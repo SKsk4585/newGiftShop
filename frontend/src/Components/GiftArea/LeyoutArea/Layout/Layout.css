@@ -1,0 +1,18 @@
+.LayOut {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+    grid-template-columns: repeat(1fr,6);
+	
+}
+.LayOut > header, .LayOut > footer{
+    grid-column: span 6;
+}
+
+.LayOut > main{
+    grid-column: span 5;
+}
+
+.LayOut > *{
+    border: 2px solid white;
+}

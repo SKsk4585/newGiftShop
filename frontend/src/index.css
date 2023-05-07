@@ -1,0 +1,7 @@
+body, html, #root{
+  height:100% ;
+  background-image:  linear-gradient(60deg, rgb(52, 176, 52), rgb(85, 6, 6),rgb(84, 179, 208));
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
